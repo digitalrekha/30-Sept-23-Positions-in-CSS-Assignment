@@ -1,0 +1,32 @@
+Question 2: Explain the difference between Absolute and Relative positioning.
+Ans: Elements with absolute positioning positioned itself with respect to thier nearest positioned ancestor, and if their is no nearest positioned ancestor then it will positioned itself with respect to their body. Whereas elements with relative positioning positioned itself with respect to their normal postion.
+
+Question 5:Explain the z-index, with a code example.
+Ans: The z-index property can be used to create layered effects, such as drop-down menus, tooltips, and modals. It can also be used to position elements precisely, such as a floating image or a fixed navigation bar.
+
+CSS
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  background-color: white;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+HTML
+<div class="dropdown">
+  <button>Dropdown</button>
+  <ul class="dropdown-content">
+    <li><a href="#">Item 1</a></li>
+    <li><a href="#">Item 2</a></li>
+    <li><a href="#">Item 3</a></li>
+  </ul>
+</div>
+

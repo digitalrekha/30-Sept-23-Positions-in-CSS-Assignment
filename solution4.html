@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution 4</title>
+    <!-- Create a simple header that sticks to the top of a webpage upon scrolling. -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu {
+            background-color: rgb(49, 46, 46);
+            color: white;
+            font-family: sans-serif;
+            font-size: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            margin-bottom: 20px;
+            position: sticky;
+            top: 0px;
+        }
+
+        .right-menu ol {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .btn {
+            border-radius: 10px;
+            padding: 5px;
+            background-color: inherit;
+            color: white;
+            border-color: rgb(100, 100, 27);
+            border-style: solid;
+            cursor: pointer;
+        }
+
+        .body {
+            margin: 0 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="menu">
+        <div class="left-menu">LOGO</div>
+        <div class="right-menu">
+            <ol>
+                <li>Home</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+                <li>Terms & Conditions</li>
+                <li><button class="btn">Get Started</button></li>
+            </ol>
+        </div>
+    </nav>
+    <main class="body">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet mollitia maxime aliquam eligendi magnam
+            enim perferendis numquam totam quibusdam odit, cum maiores iste porro repudiandae ut, ipsa expedita
+            doloremque assumenda quis, nisi ea soluta sed iusto? Reprehenderit fugiat ullam nesciunt. Pariatur tenetur
+            minima voluptas est nesciunt numquam distinctio provident eligendi?</p><br>
+        <h2>Heading 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id explicabo consequuntur placeat velit nihil,
+            repudiandae modi cumque, doloremque delectus voluptatum possimus quo impedit tempore quasi eos dolores illum
+            alias provident doloribus exercitationem facere incidunt harum quisquam. Incidunt repellat nulla nihil
+            suscipit voluptatibus unde officia! Nesciunt, cum, labore ipsam excepturi officiis culpa harum ipsum minus
+            quidem ex aliquam explicabo accusamus. Officia quia, et omnis non quibusdam magni tenetur perspiciatis
+            explicabo eaque perferendis praesentium ratione in velit sunt, reiciendis optio eligendi itaque earum rerum
+            consequatur fugiat quidem accusamus quaerat! Numquam harum veritatis sint est quis culpa necessitatibus.
+            Ratione voluptate saepe quia laudantium.</p><br>
+        <h3>Heading 3</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi voluptatum, exercitationem, maiores
+            sapiente dolor est quidem ullam ut in excepturi possimus, voluptates beatae officiis consectetur suscipit
+            quia alias doloremque vero autem itaque quo id ad pariatur. Sunt voluptate magnam quis ullam consequuntur
+            error corrupti dolorum quibusdam, ipsum similique ducimus provident cupiditate repudiandae sapiente eos
+            facilis ad excepturi inventore a est. Aliquid, dolorum fuga architecto inventore ea nam enim quasi fugit
+            alias quo at molestiae earum ab explicabo in minus doloremque porro sint vitae molestias? Tenetur tempore
+            culpa labore sed nobis dicta libero assumenda, sunt, ex ullam aperiam accusamus. Doloribus, expedita.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet mollitia maxime aliquam eligendi magnam
+                enim perferendis numquam totam quibusdam odit, cum maiores iste porro repudiandae ut, ipsa expedita
+                doloremque assumenda quis, nisi ea soluta sed iusto? Reprehenderit fugiat ullam nesciunt. Pariatur tenetur
+                minima voluptas est nesciunt numquam distinctio provident eligendi?</p><br>
+            <h2>Heading 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id explicabo consequuntur placeat velit nihil,
+                repudiandae modi cumque, doloremque delectus voluptatum possimus quo impedit tempore quasi eos dolores illum
+                alias provident doloribus exercitationem facere incidunt harum quisquam. Incidunt repellat nulla nihil
+                suscipit voluptatibus unde officia! Nesciunt, cum, labore ipsam excepturi officiis culpa harum ipsum minus
+                quidem ex aliquam explicabo accusamus. Officia quia, et omnis non quibusdam magni tenetur perspiciatis
+                explicabo eaque perferendis praesentium ratione in velit sunt, reiciendis optio eligendi itaque earum rerum
+                consequatur fugiat quidem accusamus quaerat! Numquam harum veritatis sint est quis culpa necessitatibus.
+                Ratione voluptate saepe quia laudantium.</p><br>
+            <h3>Heading 3</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi voluptatum, exercitationem, maiores
+                sapiente dolor est quidem ullam ut in excepturi possimus, voluptates beatae officiis consectetur suscipit
+                quia alias doloremque vero autem itaque quo id ad pariatur. Sunt voluptate magnam quis ullam consequuntur
+                error corrupti dolorum quibusdam, ipsum similique ducimus provident cupiditate repudiandae sapiente eos
+                facilis ad excepturi inventore a est. Aliquid, dolorum fuga architecto inventore ea nam enim quasi fugit
+                alias quo at molestiae earum ab explicabo in minus doloremque porro sint vitae molestias? Tenetur tempore
+                culpa labore sed nobis dicta libero assumenda, sunt, ex ullam aperiam accusamus. Doloribus, expedita.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet mollitia maxime aliquam eligendi magnam
+                    enim perferendis numquam totam quibusdam odit, cum maiores iste porro repudiandae ut, ipsa expedita
+                    doloremque assumenda quis, nisi ea soluta sed iusto? Reprehenderit fugiat ullam nesciunt. Pariatur tenetur
+                    minima voluptas est nesciunt numquam distinctio provident eligendi?</p><br>
+                <h2>Heading 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id explicabo consequuntur placeat velit nihil,
+                    repudiandae modi cumque, doloremque delectus voluptatum possimus quo impedit tempore quasi eos dolores illum
+                    alias provident doloribus exercitationem facere incidunt harum quisquam. Incidunt repellat nulla nihil
+                    suscipit voluptatibus unde officia! Nesciunt, cum, labore ipsam excepturi officiis culpa harum ipsum minus
+                    quidem ex aliquam explicabo accusamus. Officia quia, et omnis non quibusdam magni tenetur perspiciatis
+                    explicabo eaque perferendis praesentium ratione in velit sunt, reiciendis optio eligendi itaque earum rerum
+                    consequatur fugiat quidem accusamus quaerat! Numquam harum veritatis sint est quis culpa necessitatibus.
+                    Ratione voluptate saepe quia laudantium.</p><br>
+                <h3>Heading 3</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi voluptatum, exercitationem, maiores
+                    sapiente dolor est quidem ullam ut in excepturi possimus, voluptates beatae officiis consectetur suscipit
+                    quia alias doloremque vero autem itaque quo id ad pariatur. Sunt voluptate magnam quis ullam consequuntur
+                    error corrupti dolorum quibusdam, ipsum similique ducimus provident cupiditate repudiandae sapiente eos
+                    facilis ad excepturi inventore a est. Aliquid, dolorum fuga architecto inventore ea nam enim quasi fugit
+                    alias quo at molestiae earum ab explicabo in minus doloremque porro sint vitae molestias? Tenetur tempore
+                    culpa labore sed nobis dicta libero assumenda, sunt, ex ullam aperiam accusamus. Doloribus, expedita.</p>
+    </main>
+</body>
+
+</html>
